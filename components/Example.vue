@@ -11,7 +11,7 @@ const hovering = ref(false)
 
 <template>
   <div class="text-container" @mouseover="hovering = true" @mouseleave="hovering = false">
-    <div>{{ jp }}</div>
+    <div class="jp">{{ jp }}</div>
     <div :class="{ 'blurred': !hovering }">{{ de }}</div>
   </div>
 </template>
@@ -19,13 +19,12 @@ const hovering = ref(false)
 <style scoped>
 .text-container {
   display: inline-block;
-  background: rgb(22, 22, 24);
-  font-size: 20px;
+  background: rgba(101, 117, 133, 0.16);
+  font-size: 18px;
   width: 100%;
   padding: 16px 32px;
   border-radius: 8px;
   text-align: center;
-  line-height: 1.5;
   margin: 0;
 }
 
@@ -40,5 +39,9 @@ const hovering = ref(false)
 
 .blurred:hover {
   filter: blur(0);
+}
+
+.jp {
+  margin-bottom: 16px;
 }
 </style>

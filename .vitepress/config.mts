@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,14 +21,10 @@ export default defineConfig({
           { text: 'あげる²', link: '/ageru-2' },
           { text: '間（に）', link: '/aida-ni' },
           { text: 'あまり', link: '/amari' },
+          { text: 'ある¹', link: '/aru-1' },
+          { text: 'ある²', link: '/aru-2' },
           {
-            text: 'ある', collapsed: true, items: [
-              { text: 'Existenz', link: '/aru/1' },
-              { text: 'Zustand', link: '/aru/2' },
-            ]
-          },
-          {
-            text: 'あとで', link: '/atode',
+            text: 'あとで', link: '/ato-de',
           },
           {
             text: 'ば', link: '/ba',
@@ -117,6 +114,24 @@ export default defineConfig({
   markdown: {
     image: {
       lazyLoading: true,
+    },
+    config: (md) => {
+      md.use(footnote)
+
+      md.renderer.rules.footnote_ref = (tokens, index, options, env, self) => {
+        const id = self.rules.footnote_anchor_name?.(tokens, index, options, env, self)
+        const caption = self.rules.footnote_caption?.(tokens, index, options, env, self)
+        let refid = id
+
+        if (tokens[index].meta.subId > 0) refid += `:${tokens[index].meta.subId}`
+
+        return `<a href="#fn${id}" id="fnref${refid}">${caption}</a>`
+      }
+
+      md.renderer.rules.footnote_block_open = () => {
+        return '<section class="footnotes">\n' +
+          '<ol class="footnotes-list">\n'
+      }
     }
   },
 
