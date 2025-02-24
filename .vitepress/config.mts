@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Japanisch",
-  description: "Eine Webseite zum Erlernen der Japanischen Sprache",
+  description: "Notizen zur japanischen Sprache",
   base: "/jap/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -104,12 +104,14 @@ export default defineConfig({
         ]
       }
     ],
-    socialLinks: [],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/alexvoedi/jap' }
+    ],
     search: {
       provider: "local"
     },
     editLink: {
-      pattern: "https://github.com/nekatz/japanisch/edit/main/docs/:path",
+      pattern: "https://github.com/alexvoedi/jap/edit/main/docs/:path",
     },
     docFooter: {
       prev: false,
