@@ -33,7 +33,7 @@ export default defineConfig({
             text: 'ばかり', link: '/bakari',
           },
           {
-            text: 'ばよかった', link: '/bayokatta',
+            text: 'ばよかった', link: '/ba-yokatta',
           },
           {
             text: 'だい', link: '/dai',
