@@ -1,3 +1,5 @@
+---
+---
 # ごとに
 
 ごとに beschreibt, dass eine Handlung regelmäßig in festen zeitlichen (oder räumlichen) Abständen stattfindet.

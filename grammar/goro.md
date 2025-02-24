@@ -1,3 +1,5 @@
+---
+---
 # ごろ
 
 ごろ beschreibt einen ungefähren Zeitpunkt.

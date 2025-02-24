@@ -1,3 +1,5 @@
+---
+---
 # あとで
 
 あとで beschreibt, dass ein Zustand oder eine Aktivität zeitlich nach einem anderen Zustand oder einer anderen Aktivität stattfindet.

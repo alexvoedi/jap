@@ -22,7 +22,7 @@ export default defineConfig({
               { text: 'Für jmd. etw. tun', link: '/ageru/2' },
             ]
           },
-          { text: 'あいだに', link: '/aidani' },
+          { text: '間（に）', link: '/aidani' },
           { text: 'あまり', link: '/amari' },
           {
             text: 'ある', collapsed: true, items: [

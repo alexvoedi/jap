@@ -1,3 +1,5 @@
+---
+---
 # 〜がる
 
 〜がる ist ein Hilfsverb, das verwendet wird, um auszudrücken, dass jemand (außer der Sprecher) eine bestimmte Emotion oder einen bestimmten Zustand zeigt. 〜がる kann mit "scheint" übersetzt werden.

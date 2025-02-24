@@ -1,3 +1,5 @@
+---
+---
 # ばよかった
 
 ばよかった drückt das Bedauern des Sprechers darüber aus, dass etwas nicht stattgefunden hat.

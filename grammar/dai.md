@@ -1,3 +1,5 @@
+---
+---
 # だい
 
 だい wird von männlichen Sprechern als Finalpartikel verwendet, um Ergänzungsfragen zu stellen.

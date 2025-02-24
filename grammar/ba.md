@@ -1,3 +1,5 @@
+---
+---
 # ば
 
 ば ist eine Konjunktion die beschreibt, dass die erstgenannte Handlung die Bedingung für die zweitgenannte Handlung ist.

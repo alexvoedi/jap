@@ -1,3 +1,5 @@
+---
+---
 # 〜出す
 
 〜出す bedeutet so viel wie "anfangen zu ...", aber auch "aus...".

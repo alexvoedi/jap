@@ -1,3 +1,5 @@
+---
+---
 # だけ
 
 だけ ist ein Partikel der eine Grenze für etwas ausdrückt.

@@ -1,3 +1,5 @@
+---
+---
 # だろう
 
 だろう ist ein Hilfsverb das verwendet wird, um eine Vermutung des Sprechers auszudrücken, die nicht auf Informationen oder Beweisen basiert.

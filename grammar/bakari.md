@@ -1,3 +1,5 @@
+---
+---
 # ばかり
 
 ばかり ist ein Partikel der beschreibt, dass etwas das eizige ist, das existiert oder etwas das einzige ist, das man tut.

@@ -1,6 +1,8 @@
-# あいだ（に）
+---
+---
+# aida(ni) 間（に）
 
-あいだ（に） bezeichnet den Raum zwischen zwei zeitlichen oder räumlichen Punkten.
+間（に） bezeichnet den Raum zwischen zwei zeitlichen oder räumlichen Punkten.
 
 **Beispiele**:
 

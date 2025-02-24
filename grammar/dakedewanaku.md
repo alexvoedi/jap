@@ -1,3 +1,5 @@
+---
+---
 # だけだ（は）なく
 
 だけで（は）なく bedeutet so viel wie "nicht nur ... sondern auch ...".

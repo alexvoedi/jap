@@ -1,3 +1,5 @@
+---
+---
 # どう
 
 どう wird verwendet, um nach einem Zustand oder der Art und Weise einer Handlung zu fragen.
