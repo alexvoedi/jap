@@ -2,7 +2,7 @@
 ---
 # ageru² あげる
 
-あげる wird verwendet, wenn jemand etwas für jemanden tut. Die Regeln bleiben die gleichen.
+あげる wird verwendet, wenn jemand etwas für jemanden tut.
 
 ## Beispiele
 

@@ -6,51 +6,39 @@ defineProps<{
   jp: string
 }>()
 
-const isHovered = ref(false)
+const hovering = ref(false)
 </script>
 
 <template>
-  <div class="tooltip-container" @mouseover="isHovered = true" @mouseleave="isHovered = false">
-    <span>{{ jp }}</span>
-    <div v-if="isHovered" class="tooltip">{{ de }}</div>
+  <div class="text-container" @mouseover="hovering = true" @mouseleave="hovering = false">
+    <div>{{ jp }}</div>
+    <div :class="{ 'blurred': !hovering }">{{ de }}</div>
   </div>
 </template>
 
 <style scoped>
-.tooltip-container {
-  position: relative;
+.text-container {
   display: inline-block;
-  cursor: help;
-}
-
-.tooltip {
-  visibility: visible;
-  background-color: black;
-  color: #fff;
+  background: rgb(22, 22, 24);
+  font-size: 20px;
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 8px;
   text-align: center;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  z-index: 999;
-  bottom: 125%;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.9;
-  word-wrap: break-word;
-  width: max-content;
-  max-width: 480px;
-  overflow: hidden;
-  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
 }
 
-.tooltip::after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
+.text-container:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.blurred {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+.blurred:hover {
+  filter: blur(0);
 }
 </style>

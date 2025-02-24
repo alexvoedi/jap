@@ -16,13 +16,9 @@ export default defineConfig({
         text: 'Grammatik',
         base: "grammar",
         items: [
-          {
-            text: 'あげる', collapsed: true, items: [
-              { text: 'Jemandem etw. geben', link: '/ageru/1' },
-              { text: 'Für jmd. etw. tun', link: '/ageru/2' },
-            ]
-          },
-          { text: '間（に）', link: '/aidani' },
+          { text: 'あげる¹', link: '/ageru-1' },
+          { text: 'あげる²', link: '/ageru-2' },
+          { text: '間（に）', link: '/aida-ni' },
           { text: 'あまり', link: '/amari' },
           {
             text: 'ある', collapsed: true, items: [

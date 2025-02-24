@@ -2,7 +2,7 @@
 ---
 
 <script setup>
-import Example from "../../components/Example.vue"
+import Example from "../components/Example.vue"
 </script>
 
 # ageru¹ あげる
@@ -16,7 +16,7 @@ Jemand gibt jemandem etwas, der nicht zur Gruppe des Gebers gehört. Der Empfän
 ## Anmerkungen
 
 あげる wird nicht verwendet, wenn der Empfänger zur Gruppe des Gebers gehört.
-::: danger Folgender Satz wäre falsch:
+::: danger Folgender Satz wäre also falsch:
 花子は私に花をあげた。
 :::
 Stattdessen wird くれる verwendet.
