@@ -11,4 +11,4 @@ hero:
 
 Auf dieser Seite sind meine Zusammenfassungen zur Japanischen Sprache zu finden. Dabei handelt es sich primär um Notizen zur Japanischen Grammatik und schwierigen oder leicht zu verwechselnden Vokabeln.
 
-[Hier](/grammar) geht es zu den Grammatik-Notizen.
+[Hier](/grammar/index.md) geht es zu den Grammatik-Notizen.
