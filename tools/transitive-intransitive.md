@@ -3,6 +3,8 @@
 
 # Transitive und intransitive Verben
 
+Im der japanischen Sprache gibt manchmal zwei Arten desselben Verbs, deren Formen als transitiv und intransitiv bezeichnet werden. Der Unterschied zwischen den beiden Formen besteht darin, dass bei transitiven Verben ein aktiver Handelnder vorhanden ist, der die Handlung ausführt, während bei intransitiven Verben die Handlung von selbst geschieht.
+
 Auf dieser Seite ist eine Liste von transitiven und intransitiven Verben aufgeführt.
 
 <table>
@@ -123,5 +125,6 @@ Hier noch ein paar Tipps, um transitive und intransitive Verben leichter zu unte
 - Transitive Verben enden oft auf 〜す oder 〜める.
 - Endet ein Verb auf 〜る, so steht bei transitiven Verben davor oft ein e-Laut.
 - Intransitive Verben enden of auf 〜まる.
+- In den meisten Fällen werden Transitive Verben mit を und Intransitive Verben mit が verwendet.
 
 Diese Regeln treffen zwar nicht immer zu, können aber eine gute Hilfe sein.
