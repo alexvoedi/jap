@@ -73,23 +73,19 @@ export default defineConfig({
             text: 'へ', link: '/e',
           },
           {
-            text: 'が', collapsed: true, items: [
-              {
-                text: 'Subjekt', link: '/ga/1',
-              },
-              {
-                text: 'Konjunktion', link: '/ga/2',
-              }
-            ]
+            text: 'が¹', link: '/ga-1',
           },
           {
-            text: 'がる', link: '/garu',
+            text: 'が²', link: '/ga-2',
+          },
+          {
+            text: '〜がる', link: '/garu',
           },
           {
             text: 'ごろ', link: '/goro',
           },
           {
-            text: 'ごとに', link: '/gotoni',
+            text: 'ごとに', link: '/goto-ni',
           }
         ]
       }
