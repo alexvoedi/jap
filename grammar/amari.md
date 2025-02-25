@@ -26,7 +26,7 @@ import Example from "../components/Example.vue"
 あまり kann auch in positiven Sätzen verwendet werden. In diesem Fall bedeutet es "sehr" oder "zu viel" und hat eine negative Konnotation.
 
 ::: info BEISPIEL
-花子さんはあまり酒を飲んだので病気になった。
+花子はあまり酒を飲んだので病気になった。
 :::
 
 Hier deutet あまり darauf hin, dass Hanako zu viel Alkohol getrunken hat.

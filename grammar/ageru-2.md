@@ -11,7 +11,7 @@ import Example from "../components/Example.vue"
 
 ## Beispiele
 
-<Example jp="私の花子さんにネクタイを買ってあげた。" de="Ich habe für Hanako eine Krawatte gekauft." />
+<Example jp="私の花子にネクタイを買ってあげた。" de="Ich habe für Hanako eine Krawatte gekauft." />
 
 ## Anmerkungen
 

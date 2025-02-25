@@ -43,29 +43,25 @@ export default defineConfig({
             text: 'だけ', link: '/dake',
           },
           {
-            text: 'だけではなく', link: '/dakedewanaku',
+            text: 'だけで（は）なく', link: '/dake-de-wa-naku',
           },
           {
             text: 'だろう', link: '/darou',
           },
           {
-            text: '出す', link: '/dasu',
+            text: '〜出す', link: '/dasu',
           },
           {
-            text: 'で', collapsed: true, items: [
-              {
-                text: 'Ort', link: '/de/1',
-              },
-              {
-                text: 'Mittel/Methode', link: '/de/2',
-              },
-              {
-                text: 'Grund', link: '/de/3',
-              },
-              {
-                text: 'Zeitpunkt', link: '/de/4',
-              },
-            ]
+            text: 'で¹', link: '/de-1',
+          },
+          {
+            text: 'で²', link: '/de-2',
+          },
+          {
+            text: 'で³', link: '/de-3',
+          },
+          {
+            text: 'で⁴', link: '/de-4',
           },
           {
             text: 'でも', link: '/demo',

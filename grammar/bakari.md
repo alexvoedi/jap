@@ -9,7 +9,7 @@ import Example from "../components/Example.vue"
 
 ばかり ist ein Partikel der beschreibt, dass etwas das eizige ist, das existiert oder etwas das einzige ist, das man tut.
 
-## Beispiel
+## Beispiele
 
 <Example jp="友子は遊んでばかりいる。" de="Tomoko tut nichts anderes als spielen." />
 

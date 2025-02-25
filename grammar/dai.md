@@ -9,7 +9,7 @@ import Example from "../components/Example.vue"
 
 だい wird von männlichen Sprechern als Finalpartikel verwendet, um Ergänzungsfragen zu stellen.
 
-## Beispiel
+## Beispiele
 
 <Example jp="新しい仕事はどうだい。" de="Wie ist die dein neuer Arbeitsplatz?" />
 
