@@ -1,3 +1,4 @@
 {
-  "arrayIndexInlay.enabled": false
+  "arrayIndexInlay.enabled": false,
+  "markdown.validate.enabled": true
 }

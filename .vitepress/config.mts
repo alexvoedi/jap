@@ -10,86 +10,108 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Grammatik', link: '/grammar' }
+      { text: 'Grammatik', link: '/grammar' },
+      { text: 'Vokabeln', link: '/vocabulary' },
+      { text: 'Hilfsmittel', link: '/tools' },
     ],
-    sidebar: [
-      {
-        text: 'Grammatik',
-        base: "grammar",
-        link: "/grammar",
-        items: [
-          { text: 'あげる¹', link: '/ageru-1' },
-          { text: 'あげる²', link: '/ageru-2' },
-          { text: '間（に）', link: '/aida-ni' },
-          { text: 'あまり', link: '/amari' },
-          { text: 'ある¹', link: '/aru-1' },
-          { text: 'ある²', link: '/aru-2' },
-          {
-            text: 'あとで', link: '/ato-de',
-          },
-          {
-            text: 'ば', link: '/ba',
-          },
-          {
-            text: 'ばかり', link: '/bakari',
-          },
-          {
-            text: 'ばよかった', link: '/ba-yokatta',
-          },
-          {
-            text: 'だい', link: '/dai',
-          },
-          {
-            text: 'だけ', link: '/dake',
-          },
-          {
-            text: 'だけで（は）なく', link: '/dake-de-wa-naku',
-          },
-          {
-            text: 'だろう', link: '/darou',
-          },
-          {
-            text: '〜出す', link: '/dasu',
-          },
-          {
-            text: 'で¹', link: '/de-1',
-          },
-          {
-            text: 'で²', link: '/de-2',
-          },
-          {
-            text: 'で³', link: '/de-3',
-          },
-          {
-            text: 'で⁴', link: '/de-4',
-          },
-          {
-            text: 'でも', link: '/demo',
-          },
-          {
-            text: 'どう', link: '/dou',
-          },
-          {
-            text: 'へ', link: '/e',
-          },
-          {
-            text: 'が¹', link: '/ga-1',
-          },
-          {
-            text: 'が²', link: '/ga-2',
-          },
-          {
-            text: '〜がる', link: '/garu',
-          },
-          {
-            text: 'ごろ', link: '/goro',
-          },
-          {
-            text: 'ごとに', link: '/goto-ni',
-          }
-        ]
-      }
-    ],
+    sidebar: {
+      '/grammar/': [
+        {
+          text: 'Grammatik',
+          base: "grammar",
+          link: "/grammar",
+          items: [
+            { text: 'あげる¹', link: '/ageru-1' },
+            { text: 'あげる²', link: '/ageru-2' },
+            { text: '間（に）', link: '/aida-ni' },
+            { text: 'あまり', link: '/amari' },
+            { text: 'ある¹', link: '/aru-1' },
+            { text: 'ある²', link: '/aru-2' },
+            {
+              text: 'あとで', link: '/ato-de',
+            },
+            {
+              text: 'ば', link: '/ba',
+            },
+            {
+              text: 'ばかり', link: '/bakari',
+            },
+            {
+              text: 'ばよかった', link: '/ba-yokatta',
+            },
+            {
+              text: 'だい', link: '/dai',
+            },
+            {
+              text: 'だけ', link: '/dake',
+            },
+            {
+              text: 'だけで（は）なく', link: '/dake-de-wa-naku',
+            },
+            {
+              text: 'だろう', link: '/darou',
+            },
+            {
+              text: '〜出す', link: '/dasu',
+            },
+            {
+              text: 'で¹', link: '/de-1',
+            },
+            {
+              text: 'で²', link: '/de-2',
+            },
+            {
+              text: 'で³', link: '/de-3',
+            },
+            {
+              text: 'で⁴', link: '/de-4',
+            },
+            {
+              text: 'でも', link: '/demo',
+            },
+            {
+              text: 'どう', link: '/dou',
+            },
+            {
+              text: 'へ', link: '/e',
+            },
+            {
+              text: 'が¹', link: '/ga-1',
+            },
+            {
+              text: 'が²', link: '/ga-2',
+            },
+            {
+              text: '〜がる', link: '/garu',
+            },
+            {
+              text: 'ごろ', link: '/goro',
+            },
+            {
+              text: 'ごとに', link: '/goto-ni',
+            }
+          ]
+        },
+      ],
+      '/vocabulary/': [
+        {
+          text: 'Vokabeln',
+          base: 'vocabulary',
+          link: '/vocabulary',
+          items: [],
+        },
+      ],
+      '/tools/': [
+        {
+          text: 'Hilfsmittel',
+          base: 'tools',
+          link: '/tools',
+          items: [
+            { text: 'Transitive und intransitive Verben', link: '/transitive-intransitive' },
+          ]
+        }
+      ]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/alexvoedi/jap' }
     ],
