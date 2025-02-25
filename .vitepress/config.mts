@@ -19,7 +19,6 @@ export default defineConfig({
         {
           text: 'Grammatik',
           base: "grammar",
-          link: "/grammar",
           items: [
             { text: 'あげる¹', link: '/ageru-1' },
             { text: 'あげる²', link: '/ageru-2' },
@@ -97,7 +96,6 @@ export default defineConfig({
         {
           text: 'Vokabeln',
           base: 'vocabulary',
-          link: '/vocabulary',
           items: [],
         },
       ],
@@ -105,7 +103,6 @@ export default defineConfig({
         {
           text: 'Hilfsmittel',
           base: 'tools',
-          link: '/tools',
           items: [
             { text: 'Transitive und intransitive Verben', link: '/transitive-intransitive' },
           ]
