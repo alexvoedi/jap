@@ -88,7 +88,16 @@ export default defineConfig({
             },
             {
               text: 'ごとに', link: '/goto-ni',
-            }
+            },
+            {
+              text: '〜はじめる', link: '/hajimeru',
+            },
+            {
+              text: 'はず', link: '/hazu',
+            },
+            {
+              text: 'ほうがいい', link: '/hou-ga-ii',
+            },
           ]
         },
       ],
