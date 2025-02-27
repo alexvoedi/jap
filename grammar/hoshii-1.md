@@ -5,7 +5,7 @@
 import Example from "../components/Example.vue"
 </script>
 
-# hoshii · ほしい [^1]
+# hoshii¹ · ほしい [^1]
 
 Mit ほしい drückt der Sprecher einen Wunsch oder ein Verlangen aus. ほしい kann mit "Ich möchte ..." oder "Ich hätte gerne ..." übersetzt werden
 

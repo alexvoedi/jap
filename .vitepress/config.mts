@@ -102,7 +102,16 @@ export default defineConfig({
               text: '〜ほうが〜より', link: '/hou-ga-yori',
             },
             {
-              text: 'ほしい', link: '/hoshii',
+              text: 'ほしい¹', link: '/hoshii-1',
+            },
+            {
+              text: 'ほしい²', link: '/hoshii-2',
+            },
+            {
+              text: '一番', link: '/ichiban',
+            },
+            {
+              text: '行く¹', link: '/iku-1',
             },
           ]
         },
