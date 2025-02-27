@@ -98,6 +98,12 @@ export default defineConfig({
             {
               text: 'ほうがいい', link: '/hou-ga-ii',
             },
+            {
+              text: '〜ほうが〜より', link: '/hou-ga-yori',
+            },
+            {
+              text: 'ほしい', link: '/hoshii',
+            },
           ]
         },
       ],
