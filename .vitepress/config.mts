@@ -129,6 +129,7 @@ export default defineConfig({
           base: 'tools',
           items: [
             { text: 'Transitive und intransitive Verben', link: '/transitive-intransitive' },
+            { text: 'Zusammengesetzte Verben', link: '/zusammengesetzte-verben' },
           ]
         }
       ]
