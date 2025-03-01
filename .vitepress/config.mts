@@ -125,6 +125,15 @@ export default defineConfig({
             {
               text: 'いる³', link: '/iru-3',
             },
+            {
+              text: '自分¹', link: '/jibun-1',
+            },
+            {
+              text: '自分²', link: '/jibun-2',
+            },
+            {
+              text: 'か', link: '/ka-1',
+            },
           ]
         },
       ],
