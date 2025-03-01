@@ -132,7 +132,7 @@ export default defineConfig({
               text: '自分²', link: '/jibun-2',
             },
             {
-              text: 'か', link: '/ka-1',
+              text: 'か¹', link: '/ka-1',
             },
           ]
         },
