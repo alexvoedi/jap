@@ -5,7 +5,7 @@
 import Example from "../components/Example.vue"
 </script>
 
-# iru¹ · 行く [^1]
+# iru¹ · いる [^1]
 
 いる beschreibt die Existenz von (lebenden) Dingen.
 
@@ -19,4 +19,4 @@ import Example from "../components/Example.vue"
 
 ## Referenzen
 
-[^1]: Makino, Seiichi & Tsutsui, Michio. 2017. *A Dictionary of Basic Japanese Grammar*. The Japan Times, S. x-y.
+[^1]: Makino, Seiichi & Tsutsui, Michio. 2017. *A Dictionary of Basic Japanese Grammar*. The Japan Times, S. 153-155.

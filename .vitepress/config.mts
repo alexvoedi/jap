@@ -117,7 +117,13 @@ export default defineConfig({
               text: '行く²', link: '/iku-2',
             },
             {
-              text: 'いる²', link: '/iru-1',
+              text: 'いる¹', link: '/iru-1',
+            },
+            {
+              text: 'いる²', link: '/iru-2',
+            },
+            {
+              text: 'いる³', link: '/iru-3',
             },
           ]
         },
