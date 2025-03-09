@@ -134,6 +134,12 @@ export default defineConfig({
             {
               text: 'か¹', link: '/ka-1',
             },
+            {
+              text: 'か²', link: '/ka-2',
+            },
+            {
+              text: 'か（どうか）', link: '/ka-dou-ka',
+            },
           ]
         },
       ],
